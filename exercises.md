@@ -116,7 +116,7 @@ kubectl -n snacks-environment get all
 ```
   
 ## END: Clean up
-Once your done 
+Once your done exploring kubernetes [kubectl commandline reference](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands) clean up your minikube cluster
 ```bash
 kubectl delete service hello-node
 kubectl delete deployment hello-node
